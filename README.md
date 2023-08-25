@@ -38,3 +38,4 @@ Users can create, edit, search, view, and delete notes. Notes can be categorized
 - **DDD (Domain-Driven Design)**: Domain logic and business entities are clearly delineated and separated from infrastructure code.
 - **CQRS (Command Query Responsibility Segregation)**: Separating responsibility between commands (state changes) and queries (data retrieval).
 - **Hexagonal Architecture (Ports and Adapters)**: The application core (business logic) is separated from external agents like databases, web servers, and other services.
+- **Transactional Outbox**: A pattern for atomic writing to a database and sending a message to a queue. (implemented when sending events to RabbitMQ)
